@@ -18,9 +18,10 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "svench",
     "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "svench": "^0.3.0-1"
   }
 }

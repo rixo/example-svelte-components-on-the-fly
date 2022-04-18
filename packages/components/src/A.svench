@@ -1,0 +1,8 @@
+<script lang="ts">
+  import { View } from 'svench'
+  import A from './A.svelte'
+</script>
+
+<View name="default">
+  <A />
+</View>
